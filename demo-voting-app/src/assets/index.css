@@ -1,0 +1,41 @@
+.voting-container {
+  width: 1800px;
+  height: 600px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row
+}
+
+.voting-sections {
+  border: 1px solid black;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.poll-subject {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box{
+  margin-bottom: 10px;
+}
+
+.button-box {
+  margin-left: 10px;
+  width: 200px;
+  display: inline-block;
+}
+
+.button-remove {
+  margin: 5px;
+}
+
+.vote-item-group {
+  align-content: inherit;
+}
+
+.box-submit-vote{
+  margin-bottom: 10px;
+}
